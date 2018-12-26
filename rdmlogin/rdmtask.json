@@ -1,0 +1,25 @@
+[
+    {
+        "taskid": "75468303-6731-49c3-a5bf-8e4ee61d826d",
+        "taskdiary": [
+            {
+                "date": "2018-12-17",
+                "rate": "10",
+                "workload": "10",
+                "describe": "650V3R1M3集成测试"
+            },
+            {
+                "date": "2018-12-18",
+                "rate": "20",
+                "workload": "10",
+                "describe": "650V3R1M3集成测试"
+            },
+            {
+                "date": "2018-12-19",
+                "rate": "30",
+                "workload": "10",
+                "describe": "650V3R1M3集成测试"
+            }
+        ]
+    }
+]

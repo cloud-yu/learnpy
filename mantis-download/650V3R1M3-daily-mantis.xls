@@ -1,0 +1,1930 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>yuyun</LastAuthor>
+  <LastSaved>2018-12-22T07:18:54Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <SupBook>
+   <Path>d:\Program Files (x86)\Kutools for Excel\KutoolsforExcel.xlam</Path>
+   <SheetName>Undo</SheetName>
+   <SheetName>Temporary</SheetName>
+   <SheetName>CalendarTemplate</SheetName>
+   <SheetName>Kutools for Excel</SheetName>
+   <SheetName>Default</SheetName>
+   <SheetName>Paste</SheetName>
+   <SheetName>Temporary1</SheetName>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>0</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>1</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>2</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>3</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>4</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>5</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>6</SheetIndex>
+   </Xct>
+  </SupBook>
+  <WindowIconic/>
+  <WindowHeight>6495</WindowHeight>
+  <WindowWidth>20490</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ActiveSheet>1</ActiveSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="等线" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="常规 2">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="等线" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s67">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="2017166-CiTRANS+650+V3R1M3">
+  <Names>
+   <NamedRange ss:Name="_FilterDatabase"
+    ss:RefersTo="='2017166-CiTRANS+650+V3R1M3'!R1C1:R50C25" ss:Hidden="1"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="25" ss:ExpandedRowCount="50" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="14.25">
+   <Column ss:Width="45"/>
+   <Row>
+    <Cell><Data ss:Type="String">编号</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">项目</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">报告员</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">分派给</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">紧急程度</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">严重性</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">出现频率</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">产品版本</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">所属单盘/模块</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">报告日期</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">最后更新</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">周数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">摘要</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">状态</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">状况</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">修正版本</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">说明</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">缺陷责任人</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">缺陷责任部门</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">要求解决时间</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">引入原因</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">客户感知类缺陷</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">缺陷来源</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">产品/技术</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">167958</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3产品开发-系统测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">张超</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">黄张新</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">致命错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">没有试验</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-15</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-22</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第46周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】PRO框主控RCU6A主备切换后业务不通;【SVN版本】ftp://10.190.17.146/ver_650_v3r1_m3_2/181110_1318/ ;【问题领域】设备问题;【问题描述】PRO框主控RCU6A主备切换后业务不通</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待集成验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;在PRO框和650U3、U5之间配置SDH业务，用网管给主用RCU6A下发重启、软切换命令，插拔主用RCU6A后，业务不通&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;在PRO框和650U3、U5之间配置SDH业务，用网管给主用RCU6A下发重启、软切换命令，插拔主用RCU6A后，业务不通&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;冯子悦&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;ftp://10.190.17.146/ver_650_v3r1_m3_2/181110_1318/ &lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56_StableTrunk)_系列\V2.0R5(Build04.20.05.56_StableTrunk)_20180917_1222</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">潘飞</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">业务软件开发部</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-20</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">软件编码问题</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">系统测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">其它</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">172271</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3产品开发-系统测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">张超</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">张琪</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">致命错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件必然重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-21</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-21</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第51周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650 V3R1M3 二期测试环境;【SVN版本】ftp://10.190.17.146/ver_650_v3r1_m3_2/181124_2212/ CiTRANS_650_PRO_VR3.1 .3_FOSV3_TRUNK_11242212.squ;【问题领域】设备问题;【问题描述】锁外时钟测漂移容限，业务一直中断</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待定位</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待定位</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;PRO框锁定外时钟，连接夏光7010和NIC，选择模板测试漂移容限，业务中断&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;PRO框锁定外时钟，连接夏光7010和NIC，选择模板测试漂移容限，业务中断&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;张琪&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;ftp://10.190.17.146/ver_650_v3r1_m3_2/181124_2212/ CiTRANS_650_PRO_VR3.1 .3_FOSV3_TRUNK_11242212.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt; \\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56_StableTrunk)_系列\V2.0R5(Build04.20.05.56_StableTrunk)_20181127_1744</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">系统测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">其它</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">158489</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">尹长江</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">尹长江</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">严重错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-08-15</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-21</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第33周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650V3R1M3 第二期第二轮;;【SVN版本】CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_08131610.squ;【问题领域】网管问题;【问题描述】建tunnel报错</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待集成验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650V3R1M3测试项-二期第二轮&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;建tunnel报错 &#10; &#10;&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;董浩&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_08131610.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;V2.0R5(Build04.20.05.56_StableTrunk)_20180804_0429</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">董浩</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">其他部门</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-10-01</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">需求分析问题</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">是</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">154942</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">尹长江</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">尹长江</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">严重错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-07-18</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-21</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第29周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650V3R1M3 第二期第一轮;【SVN版本】CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_07121125.squ;;【问题领域】网管问题;【问题描述】8DMA2从10槽插入3槽，单盘起来后，配置接口后OCH通道无法创建</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待集成验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650V3R1M3测试项-二期第一轮&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;步骤1：清除业务后，把8DMA2从10槽拔出，插入3槽 &#10;步骤2：等单盘起来后，配置接口 &#10;现象：无法建立OCH通道，提示网元下没有找到符合要求的资源&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;董浩&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_07121125.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;Setup.V2.0R5(Build04.20.05.56_StableTrunk)&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-2018.7.5</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">董浩</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">其他部门</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-10-01</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">软件详细设计问题</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">是</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">157893</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">尹长江</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">尹长江</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">次要错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件必然重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-08-10</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-21</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第32周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650V3R1M3 第二期第二轮;【SVN版本】CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_08071107.squ CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_08071107.squ;【问题领域】网管问题;【问题描述】进网元时区配置，网管界面卡住</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待集成验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650V3R1M3测试项-二期第二轮&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;步骤：点开网元时区配置 &#10;现象：网管卡的时间较长&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;董浩&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_08071107.squ &#10;CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_08071107.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;V2.0R5(Build04.20.05.56_StableTrunk)_20180804_0429</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">董浩</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">其他部门</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-10-01</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">需求分析问题</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">是</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">166819</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3产品开发-系统测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">闵坤</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">熊俊</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">致命错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-06</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-21</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第45周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650 V3R1M3;【SVN版本】ftp://10.190.17.146/ver_650_v3r1_m3_2/180921_1806/CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_09211806;【问题领域】设备问题;【问题描述】U5设备掉管，邻居丢失</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已处理</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">无法重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650 V3R1M3测试平台&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;常温状态下，搭建SDH业务，U5设备掉管，mcc邻居不通&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;吴鹏&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;SRC5C WKE2202783R1B WKE7201644R1B RP0100 2018-09-21-18:21:48&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56_StableTrunk)_系列\V2.0R5(Build04.20.05.56_StableTrunk)_20180917_1222</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-08</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">系统测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">168194</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3产品开发-系统测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">潘婷</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">潘婷</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">次要错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-16</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-21</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第46周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650 V3R1M3 二期测试环境;【SVN版本】ftp://10.190.17.146/ver_650_v3r1_m3_2/181011_1517/;【问题领域】设备问题;【问题描述】U5升级过程中，主控上有ROS的core文件</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已中试验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650 V3R1M3 二期测试环境&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;1.U5设备升级，网管上一直是正在激活状态 &#10;2.查看设备底层，主控上有ROS的core文件 &#10;3.研发定位，是数组越限&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;彭正非&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;ftp://10.190.17.146/ver_650_v3r1_m3_2/181011_1517/&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56_StableTrunk)_系列\V2.0R5(Build04.20.05.56_StableTrunk)_20180917_1222</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">彭正非</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">基础软件开发部</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2019-01-01</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">软件编码问题</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">系统测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">170194</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3产品开发-系统测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">谢曌</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">尹长江</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">严重错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-04</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-20</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第49周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650V3RM3_2测试环境;【SVN版本】CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_11242212.squ CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_11242212.squ;【问题领域】设备问题;【问题描述】XSV3单盘起不来，查询状态为down</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待集成验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650V3RM3_2测试环境&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;设备进行升降级操作后，有块XSV3单盘起不来，主控日志查询为连续两次校时故障&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;赵新&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;0/2     XSV3       WKE2202274R1A       WKE7201650R1A       RP0101              2018-11-29-10:10:48&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56_StableTrunk)_系列\V2.0R5(Build04.20.05.56_StableTrunk)_20181127_1744</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">赵新</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">业务软件开发部</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-14</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">软件编码问题</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">否</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">系统测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">171391</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">潘斌</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">潘斌</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">严重错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-13</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-20</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第50周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650 V3R1 M3二期;【SVN版本】CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_12101645.squ,CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_12101645.squ;【问题领域】设备问题;【问题描述】U3设备升级起来，主盘状态down，业务盘init</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待集成验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650 V3R1 M3二期&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;1、U3设备双主控，正常升级，升级起来后show device ，主盘状态是down，业务盘状态是init&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;重启&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;刘力恺、唐军、何鹏俊&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_12101645.squ,CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_12101645.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56_StableTrunk)_系列\V2.0R5(Build04.20.05.56_StableTrunk)_20181211_1757</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">何鹏俊</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">驱动开发部</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-31</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">软件编码问题</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">是</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">165824</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3产品开发-系统测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">夏梦</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">夏梦</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">致命错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件必然重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-10-27</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-20</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第43周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650 V3R1M3测试平台;【SVN版本】ftp://10.190.17.146/ver_650_v3r1_m3_2/180921_1806/CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_09211806;【问题领域】设备问题;【问题描述】U5测试VPLS业务实例数（最大400条）下载完成后，有部分业务不通</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待中试验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650 V3R1M3测试平台&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;两个U5站点（一个站点1块SRC5C；另一个站点2块SRC5C）测试VPLS业务实例数（最大400条）下载完成后，有部分业务不通&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;王远友  李顺喜&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;SRC5C WKE2202783R1B WKE7201644R1B RP0100 2018-09-21-18:21:48&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56_StableTrunk)_系列\V2.0R5(Build04.20.05.56_StableTrunk)_20180917_1222</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">李顺喜</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">协议软件开发部</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-30</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">软件编码问题</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">系统测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">150049</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3产品开发-系统测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">谢曌</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">谢曌</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">次要错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-05-30</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-20</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第22周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】2端U5，4端U3，2端U2;【SVN版本】CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_05300815CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_05300815;【问题领域】网管问题;【问题描述】重启服务后，网管出现告警灯未刷新的问题</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待中试验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;2端U5，4端U3，2端U2&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;重启网管服务后，打开网管界面后发现设备告警灯未刷新&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无 &lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;董浩&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;SNCV1 WKE2201765R1B WKE7201286R1B RP0101 2018-05-15-07:47:59 &#10;SRC5C      WKE2202783R1B       WKE7201644R1B       RP0100              2018-05-15-15:47:28&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;Version= V2.0R5 &#10;Build  =04.20.05.56SP16</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">董浩</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">其他部门</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2019-01-16</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">软件详细设计问题</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">否</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">170003</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3产品开发-系统测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">曹荔</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">曹荔</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">次要错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件必然重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-03</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-19</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第49周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650测试环境;【SVN版本】ftp://10.190.17.146/ver_650_v3r1_m3_2/181129_1007/ CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_11291007.squ，CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_11291007.squ;【问题领域】网管问题;【问题描述】网元MAC地址查询，复选多条VPLS业务，查询结果只显示其中一条学习到的MAC地址。</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待中试验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650测试环境&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;1.配置2条VPLS业务，仪表发送MAC地址递增的流 &#10;2.网元上MAC地址查询，单独选每一条VPLS业务都能查询到学习的MAC地址 &#10;3.复选2条VPLS业务，查询MAC地址，查询结果只显示其中一条学习到的MAC地址 &#10;4.全网元VPLS MAC地址查询命令返错。&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;彭德志&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;SRC5C      WKE2202783R1B       WKE7201644R1B       RP0100              Nov 29 2018           10:08:09&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;V2.0R5(Build04.20.05.56_StableTrunk)_20181127_1744</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">彭德志</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">其他部门</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2019-01-02</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">需求分析问题</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">系统测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">170235</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3产品开发-系统测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">张超</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">张超</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">次要错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件必然重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-04</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-18</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第49周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】PRO框不上报温度越限告警、电压过高和电压过低告警;【SVN版本】ftp://10.190.17.146/ver_650_v3r1_m3_2/181128_1116/;【问题领域】设备问题;【问题描述】PRO框不上报温度越限告警、电压过高和电压过低告警</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待中试验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;PRO框连接可编程直流电源作为供电电源，通过可编程直流电源调整PRO框的供电电压&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;PRO框风扇设置为人工模式，档位为7，使风扇停止运行，设备温度升高，超过了温度告警门限值，不上报温度越限告警，PRO连接可编程直流电源作为供电电源，将电压升高至-60V，降低到36V，不上报电压过高和电压过低告警&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;潘飞&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;ftp://10.190.17.146/ver_650_v3r1_m3_2/181128_1116/&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt; \\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56_StableTrunk)_系列\V2.0R5(Build04.20.05.56_StableTrunk)_20181127_1744</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">潘飞</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">业务软件开发部</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-13</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">软件编码问题</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">系统测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">其它</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">152325</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3产品开发-系统测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">谢曌</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">彭德志</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">优化建议</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件必然重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-06-22</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-18</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第25周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】2端U2 2端U3 2端U5;【SVN版本】ftp://10.190.17.146/ver_650_v3r1_m3_1/180612_0815/CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_06120815.squ，CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_06120815.squ;【问题领域】网管问题;【问题描述】接口状态中复制出来的MAC地址错误</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待定位</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已验证未修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;2端U2 2端U3 2端U5&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;1、在网元状态中的接口状态复制MAC地址 &#10;2、将复制的MAC地址粘贴到静态ARP相应位置 &#10;3、粘贴出来的MAC地址不对 &#10;PTN-1355&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;董浩&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;SRC5C      WKE2202783R1B       WKE7201644R1B       RP0100              2018-06-12-08:16:03 &lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56SP16)_系列\V2.0R5(Build04.20.05.56SP16)_20180608_1120</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">董浩</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">其他部门</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-10-13</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">软件详细设计问题</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">否</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">系统测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">157581</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">黄张新</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">韩震</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">优化建议</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件必然重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-08-08</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-17</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第32周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650 V3R1 M3 二期第一轮;【SVN版本】CiTRANS_650_U3U2_VR3.1.3_FOSV3_TRUNK_08050815.squ;【问题领域】网管问题;【问题描述】4LN2 4TN2 8TN1盘子控制命令重复</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">遗留评估</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">遗留有计划解决</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650 V3R1 M3 二期第一轮&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;4LN2 4TN2 8TN1盘子控制命令重复&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;董浩&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U3U2_VR3.1.3_FOSV3_TRUNK_08050815.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56_StableTrunk)_系列\V2.0R5(Build04.20.05.56_StableTrunk)_20180804_1400 </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-10-25</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">是</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">171543</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">黄张新</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">黄张新</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">优化建议</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-14</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-17</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第50周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650 集成测试;【SVN版本】650_U2U3_VR3.1.3_FOSV3_TRUNK_12132147.squ;【问题领域】设备问题;【问题描述】2U设备升级过程中，概率出现主控进程异常挂死</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待集成验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650 集成测试&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;2U设备升级过程中，概率出现主控进程异常挂死&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;吴金源&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;650_U2U3_VR3.1.3_FOSV3_TRUNK_12132147.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56_StableTrunk)_系列\V2.0R5(Build04.20.05.56_StableTrunk)_20181211_1757</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">吴金源</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">协议软件开发部</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-15</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试方案设计问题</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">是</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">166414</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3产品开发-系统测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">闵坤</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">潘婷</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">严重错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-01</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-14</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第44周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650 V3R1M3;【SVN版本】下话框 ：ftp://10.190.17.146/ver_650_v3r1_m3_2/181011_1517/CiTRANS_650_PRO_VR3.1.3_FOSV3_TRUNK_10111517.squ;【问题领域】设备问题;【问题描述】PRO框自动脱管，mcc邻居丢失</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待中试验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650 V3R1M3&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;使用PRO框做持续的SDH业务，不做其它操作，PRO框自动脱管，mcc邻居丢失&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;使用PRO框做持续的SDH业务，不做其它操作，PRO框自动脱管，mcc邻居丢失&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;徐振兵&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;下话框 ：ftp://10.190.17.146/ver_650_v3r1_m3_2/181011_1517/CiTRANS_650_PRO_VR3.1.3_FOSV3_TRUNK_10111517.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56_StableTrunk)_系列\V2.0R5(Build04.20.05.56_StableTrunk)_20180917_1222</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">胡世星</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">基础软件开发部</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-06</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">软件编码问题</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">系统测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">170344</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">黄张新</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">黄张新</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">严重错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件必然重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">扩展子框特性</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-05</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-11</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第49周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650 集成测试;【SVN版本】CiTRANS_650_PRO_VR3.1.3_FOSV3_TRUNK_11171602.squ CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_11171602.squ;【问题领域】设备问题;【问题描述】下话框低阶告警性能都没有上报。</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待集成验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650 集成测试&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;下话框低阶交叉告警都没有。&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;张剑&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_PRO_VR3.1.3_FOSV3_TRUNK_11171602.squ CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_11171602.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56_StableTrunk)_系列\V2.0R5(Build04.20.05.56_StableTrunk)_20181130_1330</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">张剑</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">业务软件开发部</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-11</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">软件详细设计问题</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">是</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">167831</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">黄凡2017</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">黄凡2017</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">次要错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件必然重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-14</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-11</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第46周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650V3R1M3;【SVN版本】CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_11101318.squCiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_11101318.squ;【问题领域】软件;【问题描述】MSV1业务盘物理口和逻辑接口查不到秒级流量</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待集成验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;5U&#45;&#45;&#45;&#45;-2U&#45;&#45;&#45;&#45;-3U vpws业务，2U过站 &#10;&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;1、5U&#45;&#45;&#45;&#45;-2U&#45;&#45;&#45;&#45;-3U vpws业务，2U过站，业务都走在MSV1业务盘上 &#10;2、集采业务走的物理接口和逻辑接口 &#10;现象： &#10;5U和3U的物理口和逻辑接口查不到秒级流量 &#10;过站2U能查到端口秒级流量&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;徐晓光&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_11101318.squ &#10;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_11101318.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;Setup.V2.0R5(Build04.20.05.56_StableTrunk)&#45;&#45;&#45;-2018.11.2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">彭德志</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">其他部门</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2019-12-31</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">需求分析问题</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">是</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">168013</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">潘斌</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">彭德志</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">次要错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-15</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-10</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第46周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650 V3R1 M3二期;【SVN版本】CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_11101318.squ;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_11101318.squ;【问题领域】网管问题;【问题描述】网管界面上显示的告警数和查询到的告警数不一致</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待定位</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待定位</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650 V3R1 M3二期&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;网管界面上显示的告警数和查询到的告警数不一致&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;重启网管服务&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;彭德志&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_11101318.squ;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_11101318.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56_StableTrunk)_系列\V2.0R5(Build04.20.05.56_StableTrunk)_20181102_1606</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">是</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">160298</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">尹长江</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">尹长江</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">次要错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件必然重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-08-28</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-06</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第35周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650V3R1M3 第二期第三轮;【SVN版本】CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_08211030.squCiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_08211030.squ;;【问题领域】网管;【问题描述】网管上多下了一条命令</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待集成验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待定位</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650V3R1M3 第二期第三轮&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;步骤： &#10;1在网管上选择网元配置 &#10;2.OTN光层配置中选择EDFA基本配置 &#10;3.新增配置后保存 &#10;现象：网管上报错，查看网管日志，网管上多下了一条命令&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;刘飞，严灿&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_08211030.squ &#10;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_08211030.squ;&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\V2.0R5(Build04.20.05.56_StableTrunk)_20180827_1637</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">彭德志</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">其他部门</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-12-31</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">需求分析问题</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">是</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">153262</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3产品开发-系统测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">谢曌</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">潘婷</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">严重错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-07-02</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-22</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第27周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650 V3R1M3测试环境;【SVN版本】CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_06120815.squ； CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_06120815.squ;【问题领域】设备问题;【问题描述】650设备与660ces业务对通时，仪表闪误码</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">遗留评估</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">无法重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650 V3R1M3测试环境&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;配置650与660对通的ces业务，连接仪表后，仪表一直闪误码。&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;张翼&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_06120815.squ， &#10;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_06120815.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56SP16)_系列\V2.0R5(Build04.20.05.56SP16)_20180608_1120</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">否</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">系统测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">156791</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">黄凡2017</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">黄凡2017</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">次要错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件必然重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-08-02</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-22</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第31周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650V3R1M3二期第一轮 网管写远程网元IP报错;【SVN版本】CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_07312136.squCiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_07312136.squ;【问题领域】网管问题;【问题描述】网管上写网元IP配置，本地网元能写，远程网元提示长度非法</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待集成验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650V3R1M3二期第一轮3U 5U 2U&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;步骤： &#10;1.网管上写本地网元IP配置 &#10;2.设置远程网元IP配置 &#10; &#10;现象： &#10;2，设置远程网元IP配置时报错，提示非法长度&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;董浩&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_07312136.squ &#10;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_07312136.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;V2.0R5(Build04.20.05.56_StableTrunk)_20180731_1233</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">董浩</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">其他部门</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-10-01</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">需求分析问题</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">是</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">155806</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3产品开发-系统测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">谢曌</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">熊俊</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">优化建议</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件必然重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-07-26</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-22</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第30周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650 V3R1M3测试环境;【SVN版本】CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_07181656.squ CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_07181656.squ;【问题领域】网管问题;【问题描述】网管自动发现功能自动发现的电源盘盘名为PWR，应为DPWR-C650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">遗留评估</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">暂不解决</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650 V3R1M3测试环境&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;对网元执行单盘自动发现，发现到的电源盘盘名为PWR&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;董浩&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_07181656.squ CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_07181656.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56SP16)_系列\V2.0R5(Build04.20.05.56SP16)_20180718_1029</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">否</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">系统测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">155846</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3产品开发-系统测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">周勇</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">潘婷</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">严重错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件必然重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-07-26</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-22</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第30周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650 V3R1M3测试环境;;【SVN版本】CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_07181656.squ；CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_07181656.squ;【问题领域】设备问题;【问题描述】3u设备主用主控时钟端口接外部时钟，能锁定。然后网管切换主控盘，时钟输出相位偏差最大37.56nm，频率偏差-0.0977ppb；但设备会掉网管，业务丢包2.7s。</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">新建</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待定位</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650 V3R1M3测试环境;&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;3u设备主用主控时钟端口接外部时钟，能锁定。然后网管切换主控盘，时钟输出相位偏差最大37.56nm，频率偏差-0.0977ppb；但设备会掉网管，业务丢包2.7s。&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;自动恢复。&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;暂未来人确认。&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_07181656.squ；CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_07181656.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;V2.0R5(Build04.20.05.56SP16)_20180718_1029</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">系统测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">155451</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">黄凡2017</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">黄凡2017</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">次要错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-07-23</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-22</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第30周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650V3R1M3测试项-二期第一轮网管显示告警问题;【SVN版本】CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_07201412.squ CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_07201412.squ;【问题领域】网管问题;【问题描述】XSV2业务盘，插在设备上后，网管上告警源和定位信息没有具体端口</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待集成验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650V3R1M3测试项-二期第一轮网管显示告警问题&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;XSV2业务盘插在设备上后，网管上上光模块不在位告警，告警源和定位信息没有具体端口&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;董浩&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;V2.0R5(Build04.20.05.56_StableTrunk)_20180713_1002&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_07201412.squ CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_07201412.squ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">董浩</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">其他部门</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-10-01</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">需求分析问题</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">是</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">155183</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3产品开发-系统测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">潘婷</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">潘婷</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">严重错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-07-19</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-22</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第29周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650 V3R1M3测试环境;【SVN版本】CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_07181656.squ;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_07181656.squ;【问题领域】设备问题;【问题描述】设备升级后，有一块S1V5单盘初始化失败，业务不通</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">新建</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待定位</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650 V3R1M3测试环境&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;1.带业务升级设备软件 &#10;2.5U上一块S1V5单盘初始化失败，业务不通。&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;重启单盘&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;张翼&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_07181656.squ; &#10;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_07181656.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56SP16)_系列\V2.0R5(Build04.20.05.56SP16)_20180718_1029</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">系统测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">154898</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">田辉</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">刘力恺</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">严重错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-07-17</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-22</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第29周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650V3R1M3测试项-二期第一轮;【SVN版本】CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_07041447.squ;【问题领域】基础软件;【问题描述】设备手动升级后，发现设备带不上管，登录串口发现user.bin没了。</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待定位</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待定位</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650V3R1M3测试项-二期第一轮-2U&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;设备手动升级 &#10;1、startup CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_07161535.squ &#10;2、show startup 都ready 再startup commit  &#10;发现设备带不上管，登录串口发现user.bin没了 &#10;&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;刘力凯&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_07041447.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\V2.0R5(Build04.20.05.56_StableTrunk)_20180625_1128</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 660</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">153392</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3产品开发-系统测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">谢曌</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">韩震</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">优化建议</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件必然重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-07-03</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-22</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第27周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650 V3R1M3测试环境;【SVN版本】CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_06120815.squ； CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_06120815.squ;【问题领域】设备问题;【问题描述】10GE端口限速精度不准</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">遗留评估</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">遗留有计划解决</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650 V3R1M3测试环境&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;1、配置一条vpws业务 &#10;2、在nni出口设置200M限速 &#10;3、仪表发500M，128字节的流 &#10;4、仪表上收到的190M&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;王汝&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_06120815.squ， &#10;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_06120815.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56SP16)_系列\V2.0R5(Build04.20.05.56SP16)_20180608_1120</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">王汝</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">驱动开发部</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-07-31</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">软件详细设计问题</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">否</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">系统测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">151594</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">黄张新</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">韩震</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">优化建议</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件必然重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-06-15</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-22</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第24周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】C650集成测试2U&amp;3U&amp;5U;【SVN版本】CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_06120815.squ;【问题领域】软件问题;【问题描述】MSV1盘子镜像到不同盘的MSV1盘，然后在仪表端抓包会丢一部分包。</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">遗留评估</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">暂不解决</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;C650集成测试2U&amp;3U&amp;5U&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt; &#10;       MSV1盘子镜像到不同盘的MSV1盘，然后在仪表端抓包会丢一部分包。&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;彭志远、余涛&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_06120815.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;Setup.V2.0R5(Build04.20.05.56SP16)&#45;&#45;-20180608</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">是</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">151473</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">田辉</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">田辉</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">次要错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-06-14</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-22</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第24周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650V3R1M3集成测试;【SVN版本】CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_06120815.squ;【问题领域】网管问题;【问题描述】用网管主备切，隔几分钟后，用控制命令下关断激光器的命令，返回rpc调用超时</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待集成验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650V3R1M3集成测试&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;用网管主备切，隔几分钟后，用控制命令下关断激光器的命令，返回rpc调用超时&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;再下一遍就好了&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;董浩&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_06120815.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;V2.0R5(Build04.20.05.56SP16)_20180608_1120</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">董浩</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">其他部门</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2019-07-01</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">需求分析问题</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">149458</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3产品开发-系统测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">申巧莉</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">熊俊</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">严重错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-05-23</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-22</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第21周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】1端640、2端U2、2端U3、2端U5设备设备组网测试;【SVN版本】CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_05151543.squ;【问题领域】设备问题;【问题描述】U2设备整机上电，5槽位XSV1单盘状态wrong</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待解决</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;1端640、2端U2、2端U3、2端U5设备设备组网测试&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;1、U2设备5槽位放上XSV1单盘，设备冷上电 &#10;2、等设备完全上电成功后，查看各单盘状态及业务 &#10;3、发现XSV1单盘状态wrong，经过该单盘的业务不通&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;重启单盘进程&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;刘章茂&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;编译时间2018年5月15日 &#10;CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_05151543.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56SP16)_系列\V2.0R5(Build04.20.05.56SP16)_20180515_ 722</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">熊俊</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-07-30</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">166773</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">黄凡2017</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">刘力恺</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">致命错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-05</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-16</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第45周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650V3R1M3&#45;&#45;&#45;&#45;&#45;&#45;&#45;- 3U;【SVN版本】CiTRANS_650_U2U3_V3R1SP3.squ&#45;&#45;&#45;&#45;&#45;-181012_1238;【问题领域】软件;【问题描述】转发成僵尸进程</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待定位</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待定位</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650V3R1M3&#45;&#45;&#45;&#45;&#45;&#45;&#45;- 3U&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;1.验证问题删了.CFG配置文件 &#10;2.设备正常起来后建了一个VPLS业务发现业务不通，然后在3U show device发现11槽主控盘状态不对，查看进程，发现异常。 &#10;现象：转发把内核搞挂了&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;刘力恺&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U2U3_V3R1SP3.squ&#45;&#45;&#45;&#45;&#45;-181012_1238&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;V2.0R5(Build04.20.05.56_StableTrunk)_20180917_1222</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">是</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">165134</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3产品开发-系统测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">夏梦</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">潘婷</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">致命错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件必然重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-10-22</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-15</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第43周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650V3R1M3测试平台;【SVN版本】ftp://10.190.17.146/ver_650_v3r1_m3_2/180921_1806/CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_09211806.squ ftp://10.190.17.146/ver_650_v3r1_m3_2/180921_1806/CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_09211806.squ;【问题领域】设备问题;【问题描述】手工负载分担和静态负载分担  U5 GSV4&amp; U2 GSV4 做聚合成员口，LAG业务正常，将其任意一块GSV4插拔或软复位后，业务单通</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">共性问题判断</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">重复缺陷</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650V3R1M3测试平台&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;手工负载分担和静态负载分担  U5 GSV4&amp; U2 GSV4 做聚合成员口，LAG业务正常，将其任意一块GSV4或两块插拔或软复位后，业务单通&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;将聚合成员口移除后 在选入 &#10;&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;朱晓艺&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;SRC2A WKE2202038R1B WKE7201459R1B RP0100 2018-09-21-10:22:17 &#10; SRC5C WKE2202783R1B WKE7201644R1B RP0100 2018-09-21-18:21:48&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56_StableTrunk)_系列\V2.0R5(Build04.20.05.56_StableTrunk)_20180917_1222</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">系统测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">167628</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">尹长江</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">韩震</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">优化建议</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件必然重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-13</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-14</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第46周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650V3R1M3 测试;【SVN版本】CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_11101318.squ;【问题领域】设备;【问题描述】网管上设置3u设备风扇手工模式，档位7档，网管上显示风扇托管，风扇产生alarm告警灯亮</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">遗留评估</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">遗留有计划解决</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650V3R1M3 测试&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;步骤：网管上设置3u设备风扇手工模式，档位7档 &#10;现象：网管上显示风扇托管，风扇产生alarm告警灯亮&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;徐昊&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_11101318.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56_StableTrunk)_系列\V2.0R5(Build04.20.05.56_StableTrunk)_20181102_1606</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">熊俊</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">系统部</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-30</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">硬件设计问题</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">是</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">159531</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">田辉</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">田辉</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">次要错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-08-23</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-02</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第34周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650V3R1M3冻结期第一轮;【SVN版本】CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_08211030.squ;【问题领域】网管问题;【问题描述】网管自动锁定功能已关闭，但过几分钟还是会锁定</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待集成验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650V3R1M3冻结期第一轮&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;1、关闭网管自动锁定的功能 &#10;2、正常操作网管但几分钟后，网管还是会被锁定&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;暂无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;董浩&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_08211030.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;V2.0R5(Build04.20.05.56_StableTrunk)_20180821_2227</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">董浩</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">其他部门</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-10-01</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">需求分析问题</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">162441</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">田辉</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">田辉</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">严重错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-09-20</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-11-02</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第38周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650V3R1M3冻结期第二轮;【SVN版本】ver_650_v3r1_m3_2;【问题领域】网管;【问题描述】用网管查询双纤复用保护详细信息，和设备主控查询的状态不一致。且网管日志显示和设备是一致的。</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待集成验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650V3R1M3冻结期第二轮&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;1、用网管查询双纤复用保护详细信息，和设备主控查询的状态不一致。 &#10;2、且网管日志显示和设备是一致的。&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;暂无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;董浩&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_09150603.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;网管主干9月17号版本</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">董浩</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">其他部门</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2019-10-01</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">需求分析问题</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">165435</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">潘斌</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">韩震</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">严重错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-10-24</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-10-27</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第43周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650 V3R1 M3二期;【SVN版本】CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_09211806.squ;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_09211806.squ;【问题领域】设备问题;【问题描述】650U3设备在进行整机包升级的过程中，主控进程重启退出</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">遗留评估</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">遗留有计划解决</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650 V3R1 M3二期&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;650U3设备在进行整机包升级的过程中，主控进程重启退出&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;徐振兵&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_09211806.squ;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_09211806.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56_StableTrunk)_系列\V2.0R5(Build04.20.05.56_StableTrunk)_20180917_1222</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">是</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">155787</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3产品开发-系统测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">谢曌</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">尹长江</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">次要错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-07-26</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-10-17</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第30周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650 V3R1M3测试环境;【SVN版本】CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_07181656.squCiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_07181656.squ;【问题领域】网管问题;【问题描述】新加网元能ping通，设备状态能查询到，但在网管上显示为灰，重启manager2服务后正常</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待集成验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650 V3R1M3测试环境&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;1、对新加网元写ip并在网管上能ping通 &#10;2、单盘自动发现可以发现设备上在位单盘 &#10;3、网管页面上，该网元所有单盘全是灰的，告警、性能、状态均查询失败&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;董浩&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_07181656.squ &#10;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_07181656.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56SP16)_系列\V2.0R5(Build04.20.05.56SP16)_20180718_1029</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">董浩</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">其他部门</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-10-01</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">软件详细设计问题</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">否</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">系统测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">156835</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">潘斌</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">潘斌</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">严重错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-08-02</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-10-15</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第31周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650 V3R1 M3二期第一轮;【SVN版本】CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_07280835.squ;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_07280835.squ;【问题领域】软件问题;【问题描述】网管配置pve接口返错，关联的oduk通道槽位号和ID均是0</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待集成验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650 V3R1 M3二期第一轮&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;1、新建odu2通道，绑定pve，下载成功； &#10;2、配置pve接口的ip、接口模式为L3、MPLS使能、TP模式使能后保存下载返错，显示PVE接口关联的ODUK参数(槽位号、关联的ODUK通道ID)为默认值时不允许该条目下载)&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;刘飞&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_07280835.squ;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_07280835.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56_StableTrunk)_系列\V2.0R5(Build04.20.05.56_StableTrunk)_20180731_1233</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">刘飞</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">其他部门</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-10-01</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">需求分析问题</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">是</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">156412</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">潘斌</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">潘斌</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">严重错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件必然重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-07-31</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-10-15</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第31周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650 V3R1 M3二期第一轮;【SVN版本】CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_07280835.squ;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_07280835.squ;【问题领域】软件问题;【问题描述】网管上配置tp-o业务时，新建l2vpn业务无法激活，待激活L2VPN业务无法查询到</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待集成验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650 V3R1 M3二期第一轮&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;网管上配置tp-o业务时，新建l2vpn业务无法激活，待激活L2VPN业务无法查询到&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;董浩&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_07280835.squ;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_07280835.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56_StableTrunk)_系列\V2.0R5(Build04.20.05.56_StableTrunk)_20180726_0714</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">董浩</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">其他部门</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-10-01</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">需求分析问题</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">是</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">156723</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">尹长江</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">尹长江</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">优化建议</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-08-02</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-10-15</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第31周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650V3R1M3 第二期第一轮;【SVN版本】CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_08010835.squ;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_08010835.squ;【问题领域】网管问题;【问题描述】卸载网管包中，网管卡在卸载界面</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待集成验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650 V3R1M3测试环境&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;步骤：卸载网管，然后网管卡在卸载界面。 &#10; &#10; &#10;现象：给网管看了，网管说是被一个AOMEI backupper拦截，解决后就可以卸载安装了&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;董浩&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_08010835.squ; &#10;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_08010835.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;V2.0R5(Build04.20.05.56SP16)_20180731_1315</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">董浩</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">其他部门</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-08-14</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">软件详细设计问题</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">是</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">155086</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">尹长江</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">尹长江</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">次要错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-07-19</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-10-15</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第29周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650V3R1M3 第二期第一轮;;【SVN版本】CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_07121125.squ; CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_07170815.squ;【问题领域】网管问题;【问题描述】把环境借给开发查问题，还回来后网管上显示托管，实际上能单盘自动发现，服务也正常</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待集成验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">已修正</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650V3R1M3 第二期第一轮;&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;步骤1环境借给开发查问题，还回来后网管上显示托管 &#10;步骤2单盘自动发现，服务正常，能ping的通 &#10;现象：网管说今天查，然后晚上综合管理部断电之后，现象被破坏，早上上电后，恢复正常&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;董浩&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_07121125.squ &#10;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_07121125.squ; CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_07170815.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;Setup.V2.0R5(Build04.20.05.56_StableTrunk)&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-2018.7.5</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">董浩</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">其他部门</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-10-01</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">需求分析问题</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">是</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">162610</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">黄张新</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">余昀</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">优化建议</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件必然重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">扩展子框特性</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-09-21</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-09-27</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第38周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】PRO下话框;【SVN版本】CiTRANS_650_PRO_VR3.1.3_FOSV3_TRUNK_09182117.squ;【问题领域】网管问题;【问题描述】SDH环创建时，等待恢复时间默认写的8分钟，理因为5分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待集成验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">暂不解决</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;PRO下话框&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;SDH环创建时，等待恢复时间默认写的8分钟，理因为5分钟&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;董浩&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_PRO_VR3.1.3_FOSV3_TRUNK_09182117.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56_StableTrunk)_系列\V2.0R5(Build04.20.05.56_StableTrunk)_20180917_1222</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">董浩</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">其他部门</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2019-10-01</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">需求分析问题</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">是</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">162348</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">尹长江</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">熊俊</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">次要错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-09-19</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-09-19</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第38周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650V3R1M3 第二期第三轮;【SVN版本】CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_09171518.squ;【问题领域】设备问题;【问题描述】5U18槽电源盘show device 状态显示DOWN，网管上单盘自动发现不到PWR盘，环境上18槽电源盘是在位的</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待定位</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待定位</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650V3R1M3 第二期第三轮&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;查单盘状态，show device 18槽pwr显示 down  &#10;网管上单盘自动发现不到18槽PWR &#10;环境上18槽电源盘在位，环境上只有一块电源盘&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;徐昊&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_09171518.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;Setup.V2.0R5(Build04.20.05.56_StableTrunk)2018.9.17</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">是</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">157855</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">田辉</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">余昀</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">优化建议</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件必然重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-08-10</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-09-17</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第32周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650M3集成测试第二期第二轮;【SVN版本】CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_08080903.squ;【问题领域】网管;【问题描述】网管业务管理，过滤业务的时候，按回车无法过滤业务，</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待集成验证</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">不是缺陷</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650M3集成测试第二期第二轮&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;网管业务管理，过滤业务的时候，按回车无法过滤业务，sp16可以，主干的不行&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;董浩&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_08080903.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;V2.0R5(Build04.20.05.56_StableTrunk)_20180804_0429</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">董浩</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">其他部门</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-10-01</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">需求分析问题</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">156275</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">黄张新</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">刘力恺</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">次要错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-07-30</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-09-11</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第31周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】650V3R1M3测试项-二期第一轮;【SVN版本】CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_07280835.squ;【问题领域】设备问题;【问题描述】内存泄漏导致备用主控崩了。</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待定位</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待定位</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;650V3R1M3测试项-二期第一轮&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;步骤： &#10;       1、用网管对设备升级，升级差不多完成之后一直用CRT登录主控telnet 127.1 2650\rfiberhome\rfiberhome\r\nshow dev\r。 &#10;      2、两块主控都登不了2650，设备上也美味又core文件，启动日志也都正常 &#10;现象：1、发现登2650有一些打印，然后过了半个小时之后，主用主控挂了，备盘升主了，就可以进主控2650了。但是以前的主用主控一直是down状态。&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;刘力恺&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_07280835.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56_StableTrunk)_系列\V2.0R5(Build04.20.05.56_StableTrunk)_20180713_1400 </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">是</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">149129</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3产品开发-系统测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">谢军</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">刘力恺</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">严重错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件概率重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-05-18</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-07-31</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第20周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】2端650 U2，2端650 U3，2端650 U5设备进行组网。;【SVN版本】CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_05151543.squ;【问题领域】设备问题;【问题描述】对650 U5设备SRC5C单盘进行reboot命令下发重启后经过两个多小时才能正常上管。</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待定位</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">待定位</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;2端650 U2，2端650 U3，2端650 U5设备进行组网。&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;对650 U5设备SRC5C进行命令下发，等待单盘重启。经过两个多小时后，单盘能正常工作。&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;刘力恺&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_05151543.squ &#10;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_05151543.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56SP16)_系列\V2.0R5(Build04.20.05.56SP16)_20180515_ 722</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">否</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">系统测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="Number">154748</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2017166-CiTRANS 650 V3R1M3-集成测试</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">潘斌</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">韩震</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">中</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">次要错误</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">有条件必然重现</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">(无类型)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-07-16</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-07-23</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=&quot;第&quot;&amp;WEEKNUM(RC[-2],2)&amp;&quot;周&quot;"><Data
+      ss:Type="String">第29周</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">【问题环境】中式轮间验证;【SVN版本】CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_07161126.squ;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_07161126.squ;【问题领域】软件问题;【问题描述】业务丢包，5U设备没有上报丢包率过限告警</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">遗留评估</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">遗留有计划解决</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">测试环境：&lt;br&gt;中式轮间验证&lt;br&gt;&lt;br&gt; 测试步骤和现象：&lt;br&gt;1、U3和U5设备，两端XSV5单盘配置VPWS业务； &#10;2、两端仪表按照端口最大流量90%双向打流，3U设备业务盘端口有丢包率过限告警，5U设备业务盘端口没有上报；&lt;br&gt;&lt;br&gt; 恢复方式：&lt;br&gt;无&lt;br&gt;&lt;br&gt; 研发确认：&lt;br&gt;唐军&lt;br&gt;&lt;br&gt; 硬软件版本信息和软件编译时间：&lt;br&gt;CiTRANS_650_U2U3_VR3.1.3_FOSV3_TRUNK_07161126.squ;CiTRANS_650_U5_VR3.1.3_FOSV3_TRUNK_07161126.squ&lt;br&gt;&lt;br&gt; 网管版本信息及编译时间：&lt;br&gt;\\10.170.1.26\OTNM2005 install\V2.0R5(Build04.20.05.56_StableTrunk)_系列\V2.0R5(Build04.20.05.56_StableTrunk)_20180705_1450</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">唐军</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">驱动开发部</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">2018-10-30</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"></Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">是</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">集成测试</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PTN产品线</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">CiTRANS 650</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-1</HorizontalResolution>
+    <VerticalResolution>-1</VerticalResolution>
+   </Print>
+   <FilterOn/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1:R3</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <AutoFilter x:Range="R1C1:R50C25"
+   xmlns="urn:schemas-microsoft-com:office:excel">
+   <AutoFilterColumn x:Index="14" x:Type="Custom">
+    <AutoFilterCondition x:Operator="Equals" x:Value="待定位"/>
+   </AutoFilterColumn>
+  </AutoFilter>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="2" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="14.25">
+   <Column ss:StyleID="s64" ss:Width="45"/>
+   <Column ss:Width="42.75"/>
+   <Column ss:Index="4" ss:Width="69.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="429"/>
+   <Column ss:Index="8" ss:Width="78"/>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">编号</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">分派给</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">严重性</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">报告日期</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">摘要</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">状态</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">状况</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">问题影响分析</Data></Cell>
+   </Row>
+   <Row ss:Height="57">
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">172271</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">张琪</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">致命错误</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">2018-12-21</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">【问题环境】650 V3R1M3 二期测试环境;【SVN版本】ftp://10.190.17.146/ver_650_v3r1_m3_2/181124_2212/ CiTRANS_650_PRO_VR3.1 .3_FOSV3_TRUNK_11242212.squ;【问题领域】设备问题;【问题描述】锁外时钟测漂移容限，业务一直中断</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">待定位</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">待定位</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">下话框时钟性能不达标，业务中断</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-1</HorizontalResolution>
+    <VerticalResolution>-1</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1C1:R2C8</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
