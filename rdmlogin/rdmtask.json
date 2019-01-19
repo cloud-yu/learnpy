@@ -1,22 +1,34 @@
 [
     {
-        "taskid": "75468303-6731-49c3-a5bf-8e4ee61d826d",
+        "taskid": "d985b4cc-a2fe-4e2b-a338-dc5729c138c4",
         "taskdiary": [
             {
-                "date": "2018-12-17",
-                "rate": "10",
+                "date": "2019-1-14",
+                "rate": "93",
                 "workload": "10",
                 "describe": "650V3R1M3集成测试"
             },
             {
-                "date": "2018-12-18",
-                "rate": "20",
+                "date": "2019-1-15",
+                "rate": "94",
                 "workload": "10",
                 "describe": "650V3R1M3集成测试"
             },
             {
-                "date": "2018-12-19",
-                "rate": "30",
+                "date": "2019-1-16",
+                "rate": "96",
+                "workload": "10",
+                "describe": "650V3R1M3集成测试"
+            },
+            {
+                "date": "2019-1-17",
+                "rate": "97",
+                "workload": "10",
+                "describe": "650V3R1M3集成测试"
+            },
+            {
+                "date": "2019-1-18",
+                "rate": "98",
                 "workload": "10",
                 "describe": "650V3R1M3集成测试"
             }

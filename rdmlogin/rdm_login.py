@@ -19,6 +19,7 @@ import logging
 import sys
 sys.path.append(r'f:\temp_py')
 from baidu_ocr import Ocr  # noqa: E402
+from mycrypt.decrypto import myAccount as account  # noqa: E402
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'
 
@@ -61,12 +62,12 @@ def login(driver):
     element = driver.find_element_by_id('username')
     element.clear()
     # element.send_keys('xhchen5865')
-    element.send_keys('yuyun')
+    element.send_keys(account.username)
     # 密码
     element = driver.find_element_by_id('password')
     element.clear()
     # element.send_keys('fh0211005865')
-    element.send_keys('qaz!12345')
+    element.send_keys(account.passwd)
     # 验证码
     logger.info('codetext: %s' % codetext)
     element = driver.find_element_by_id('captcha')
@@ -147,7 +148,7 @@ def fill_tasklog(driver, content):
                 WebDriverWait(driver, 5, 1).until(EC.visibility_of_element_located(locator), 'Timeout!!!')
                 break
             except Exception as e:
-                logger.error("[x] click exception:", format(e))
+                logger.error("[x] click exception: %s" % e)
         # ActionChains(driver).move_to_element(element).click().perform()
         # WebDriverWait(driver, 30, 1).until(EC.visibility_of_element_located(locator))
         # print('calendar find')
@@ -190,8 +191,10 @@ def fill_tasklog(driver, content):
     driver.switch_to.parent_frame()
     driver.find_element_by_xpath('//div[@id="operateDiv"]/input[1]').click()
     driver.switch_to_default_content()
-    driver.find_element_by_xpath(
-        '//div[@id="dialogPanel"]/div[@class="dialog-body"]/table/tbody/tr/td[2]/input[1]').click()
+    locator = (By.XPATH, '//div[@id="dialogPanel"]/div[@class="dialog-body"]/table/tbody/tr/td[2]/input[1]')
+    WebDriverWait(driver, 30, 1).until(EC.element_to_be_clickable(locator), 'Timeout!!!')
+    element = driver.find_element(*locator)
+    ActionChains(driver).move_to_element(element).click().perform()
 
 
 def process(tasklist):

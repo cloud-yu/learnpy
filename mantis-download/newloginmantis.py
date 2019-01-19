@@ -8,6 +8,7 @@ import os
 import sys
 sys.path.append(r'f:\temp_py')
 from baidu_ocr import Ocr  # noqa: E402
+from mycrypt.decrypto import myAccount as account  # noqa: E402
 # 定义日志记录器
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
@@ -67,14 +68,19 @@ def loginPage():
         except AssertionError as res:
             logger.error('[-] %s' % res)
             logger.error('[!] repeat login...')
-    logindata = {'username': 'yuyun', 'password': 'qaz!12345', 'captcha': captcha, 'locale': "zh_CN"}
+    logindata = {
+        'username': account.username,
+        'password': account.passwd,
+        'captcha': captcha,
+        'locale': "zh_CN"
+    }
     res = bsobj.find('section', {'class': 'row btn-row'}).find_all('input', {'type': 'hidden'})
     for i in res:
         logindata[i.get('name')] = i.get('value')
 
     s.post(loginurl, headers=headers, data=logindata)
     req3 = s.post(mantislogin, headers=headers, data=logindata)
-    result = re.search(r'yuyun', req3.text)
+    result = re.search(account.username, req3.text)
     if result:
         logger.info('[+] login successful!!')
         return True

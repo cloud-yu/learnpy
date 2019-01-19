@@ -11,7 +11,7 @@ import re
 from time import sleep
 from datetime import datetime
 
-#change dirname to current script's dirname
+# dirname to current script's dirname
 curdir = os.path.dirname(__file__)
 os.chdir(curdir)
 
@@ -74,7 +74,7 @@ class YqUser:
         '''
         Get user login data
         '''
-        if os.path.isfile(self.cookie_file) != True:
+        if os.path.isfile(self.cookie_file) is not True:
             self.login()
 
         with open(self.cookie_file, 'r') as f:
@@ -97,7 +97,7 @@ class YqUser:
 
         self.group_list = dict()
 
-        with open(self.group_file, 'r') as f:
+        with open(self.group_file, 'r', encoding='utf8') as f:
             for line in f.readlines():
                 if line[0] == '#':
                     continue
@@ -233,10 +233,14 @@ class YqUser:
             print(msg['content'])
             print('')
 
-    def sign_on(self, locate):
+    def sign_on(self, locate, delay=False):
         '''
         Sign on
         '''
+        if delay is True:
+            t = random.randint(0, 600)
+            print('sleep %ds,then sign on...' % t)
+            sleep(t)
         # reload
         self.load_work_group()
 
@@ -549,9 +553,9 @@ def passwd_hash(passwd):
 
 
 def get_resp_data(url, server_addr, req_header, req_data_val):
-    ''' 
-    Connect to server, send POST data, and 
-    get server response data 
+    '''
+    Connect to server, send POST data, and
+    get server response data
     '''
     req_data = urllib.parse.urlencode({'text': req_data_val}, encoding="utf-8")
     conn = http.client.HTTPConnection(server_addr, timeout=10)
@@ -592,7 +596,7 @@ def main():
         if os.path.isfile(YqUser.user_file) != True:
             raise Exception('Please create file "{}"'.format(YqUser.user_file))
 
-        with open(YqUser.user_file, 'r') as f:
+        with open(YqUser.user_file, 'r', encoding='utf8') as f:
             userinfo = f.readline()
 
         mobile, passwd = userinfo.split(':')
@@ -620,7 +624,8 @@ def main():
         print('9. 加速观看视频      -- 观看所有没有看过的视频，10s一个.')
         print('')
         print('10. 签到          -- 工作圈: "{}", 地点: 高新四路研发中心'.format(user.group_file))
-        print('11. 显示系统通知')
+        print('11. 延时签到，随机等待0~10min后再签到    -- 工作圈: "{}", 地点: 高新四路研发中心'.format(user.group_file))
+        print('12. 显示系统通知')
         print('')
         print('0. 退出')
 
@@ -632,7 +637,7 @@ def main():
             cmd_param = False
             sels = re.split('[, ]', sels)
         print('')
-        
+
         for sel in sels:
             try:
 
@@ -661,6 +666,8 @@ def main():
                 elif sel == '10':
                     user.sign_on(locate_2)
                 elif sel == '11':
+                    user.sign_on(locate_2, delay=True)
+                elif sel == '12':
                     user.show_sys_notify()
                 elif sel == '0':
                     exit(0)
@@ -670,7 +677,7 @@ def main():
                 break
 
         if cmd_param != False:
-                break
+            break
 
     # s = input("\r\nPress Enter to exit.")
 

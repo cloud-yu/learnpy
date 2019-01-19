@@ -14,19 +14,49 @@ def get_threshold(image):
             pixel = image.getpixel((i, j))
             pixel_dict[pixel] += 1
 
-    count_max = max(pixel_dict.values())
-    pixel_dict_reverse = {v: k for k, v in pixel_dict.items()}
-    threshold = pixel_dict_reverse[count_max]
+    # count_max = max(pixel_dict.values())
+    # pixel_dict_reverse = {v: k for k, v in pixel_dict.items()}
+    # threshold = pixel_dict_reverse[count_max]
+
+    # 灰度平均值获取阈值
+    # threshold = sum([k * v for k, v in pixel_dict.items()]) / (rows * cols)
+
+    # 迭代最佳阈值
+
+    tmax = max(map(int, pixel_dict.keys()))
+    tmin = min(map(int, pixel_dict.keys()))
+
+    t = (tmax + tmin) / 2
+
+    t1 = -1
+    while int(t) != int(t1):
+        t1 = t
+        tb = []
+        tf = []
+        for i in pixel_dict.keys():
+            if int(i) < t1:
+                tb.append(i)
+            else:
+                tf.append(i)
+        tba = sum([pixel_dict[i] * int(i) for i in tb]) / sum([pixel_dict[i] for i in tb])
+        tfa = sum([pixel_dict[i] * int(i) for i in tf]) / sum([pixel_dict[i] for i in tf])
+        t = (tba + tfa) / 2
+    threshold = t
     return threshold
 
 
 def get_bin_table(threshold, rate=0.1):
     table = []
+    # for i in range(256):
+    #     if threshold * (1 - rate) <= i <= threshold * (1 + rate):
+    #         table.append(1)
+    #     else:
+    #         table.append(0)
     for i in range(256):
-        if threshold * (1 - rate) <= i <= threshold * (1 + rate):
-            table.append(1)
-        else:
+        if i < threshold * (1 - rate):
             table.append(0)
+        else:
+            table.append(255)
     return table
 
 
@@ -58,10 +88,10 @@ def pic_add(image):
             pixel = image.getpixel((i, j))
             if pixel <= 128:
                 value = int(pixel * pixel / 128)
-                image.putpixel((i, j), value)
             else:
                 value = int(255 - (255 - pixel) * (255 - pixel) / 128)
-                image.putpixel((i, j), value)
+
+            image.putpixel((i, j), value)
     return image
 
 
@@ -94,7 +124,7 @@ def OCR_lmj(img_path):
 
     max_pixel = get_threshold(imgry)
 
-    table = get_bin_table(threshold=max_pixel, rate=0.4)
+    table = get_bin_table(threshold=max_pixel, rate=0.1)
     out = imgry.point(table, '1')
     out = cut_noise(out)
     out.show()
@@ -106,22 +136,26 @@ def OCR_lmj(img_path):
 
 
 def main():
-    image_path = r'E:\Users\yuyun\captcha.jpg'
+    image_path = r'F:\temp_py\captcha.jpg'
     # print(OCR_lmj(image_path))
     image = Image.open(image_path)
     imgry = image.convert('L')
-    imgry = pic_add(pic_add(pic_add(imgry)))
+    # imgry = pic_add(pic_add(pic_add(imgry)))
     imgry = ave_nosie(imgry)
     max_pixel = get_threshold(imgry)
-    table = get_bin_table(threshold=max_pixel, rate=0.4)
+    table = get_bin_table(threshold=max_pixel, rate=0.0)
     out = imgry.point(table, '1')
     out.save('temp.jpg')
     out = cut_noise(out)
     out.save('temp1.jpg')
-    text = pytesseract.image_to_string(out)
+    text = pytesseract.image_to_string(out, config='--psm 13')
     exclude_char_list = ' .:\\|\'\"?![],()~@#$%^&*_+-={};<>/¥'
-    text = ''.join([x for x in text if x not in exclude_char_list])
-    print(text)
+    text1 = ''.join([x for x in text if x not in exclude_char_list])
+    print(text, text1)
+    image.save('temp2.jpg')
+    image1 = Image.open('temp2.jpg')
+    print(pytesseract.image_to_string(image1, config='--psm 13'))
+    print(pytesseract.image_to_string(image, config='--psm 13'))
 
 
 main()
